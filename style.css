@@ -1,0 +1,100 @@
+body {
+    background: lightgrey;
+    font-family: 'MedievalSharp', cursive;
+    color: black;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.wrappper{
+@include clear;
+    width:100%;
+    margin: 0;
+}
+
+canvas {
+    color:white;
+    border: white dashed 2px;
+    padding: 15px;
+}
+
+h1, h2, h3 {
+    font-family: 'MedievalSharp', cursive;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: red;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 1.5em;
+
+}
+
+#alphabet {
+    margin: 15px auto;
+    padding: 0;
+    max-width: 900px;
+}
+
+#alphabet li {
+    float: none;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+    list-style: none;
+    width: 55px;
+    height: 40px;
+    padding-top: 10px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#categoryName {
+    display: inline-block;
+    margin: 10px 0;
+}
+#my-word {
+    margin: 0;
+    display: inline-block;
+    padding: 0;
+}
+
+#my-word li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0 10px;
+    font-size:1.6em;
+}
+
+#mylives{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+
+button {
+    background: red;
+    color: white;
+    border: solid 1px black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+}
+
+
+
